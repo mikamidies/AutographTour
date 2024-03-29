@@ -168,7 +168,7 @@
 
               <aside class="col-lg-4" id="sidebar">
                 <div class="box_detail booking">
-                  <form action="https://deltatour.uz/order/7" method="post">
+                  <form action="https://deltatour.uz/order/8" method="post">
                     <input
                       type="hidden"
                       name="_token"
@@ -176,10 +176,10 @@
                     />
                     <div class="price">
                       <span>
-                        6,200,000 UZS <small> / человек</small>
+                        6,400,000 UZS <small> / человек</small>
                         <span>
                           <small style="font-size: 14px"
-                            >Продолжительность тура: 7 дней</small
+                            >Продолжительность тура: 5 дней</small
                           >
                           <hr style="margin: 6px" />
                           <small
@@ -188,7 +188,7 @@
                               color: blue;
                               display: inline-block;
                             "
-                            >За каждый дополнительный день: 1000000 сум</small
+                            >За каждый дополнительный день: 1500000 сум</small
                           >
                         </span>
                       </span>
@@ -232,11 +232,89 @@
                         id="to"
                         name="to"
                         required
-                        value="2024-04-04"
+                        value="2024-04-02"
                       />
                     </div>
                     <button type="submit" class="btn_1 full-width purchase">
                       Купить
+                    </button>
+                  </form>
+                </div>
+
+                <div class="box_detail booking">
+                  <form>
+                    <input
+                      type="hidden"
+                      name="_token"
+                      value="ECwobxdQJNvVYKDgLFA9hSYX5rCrnS06UsgLuW4s"
+                    />
+                    <div class="price">
+                      <span>
+                        6,400,000 UZS <small> / человек</small>
+                        <span>
+                          <small style="font-size: 14px"
+                            >Продолжительность тура: 5 дней</small
+                          >
+                          <hr style="margin: 6px" />
+                          <small
+                            style="
+                              font-size: 14px;
+                              color: blue;
+                              display: inline-block;
+                            "
+                            >За каждый дополнительный день: 1500000 сум</small
+                          >
+                        </span>
+                      </span>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Имя</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="phone_number">Номер телефона</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="phone_number"
+                        name="phone_number"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="from">От</label>
+                      <input
+                        class="form-control"
+                        type="date"
+                        id="from"
+                        name="from"
+                        required
+                        value="2024-03-28"
+                      />
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="to">До</label>
+                      <input
+                        class="form-control"
+                        type="date"
+                        id="to"
+                        name="to"
+                        required
+                        value="2024-04-02"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      onclick="alert('Забронировано')"
+                      class="btn_1 full-width purchase"
+                    >
+                      Бронировать
                     </button>
                   </form>
                 </div>
